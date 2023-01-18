@@ -96,6 +96,16 @@ npm run dev
 
 ## Mobile
 
+Create the project (Blank - Typescript):
+```sh
+npx create-expo-app mobile --template
+```
+
+Install the Expo dependencies:
+```sh
+npx expo install expo-font @expo-google-fonts/inter
+```
+
 Install the dependencies:
 ```sh
 
@@ -104,6 +114,12 @@ Install the dependencies:
 Install the development dependencies:
 ```sh
 
+```
+
+Run the project:
+```sh
+npx expo start
+npx expo start --clear
 ```
 
 
